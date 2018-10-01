@@ -635,7 +635,7 @@ class Database():
             return self.geolocation_cache[address]
         print("Collecting geolocation for: " + address)
         try:
-            geolocation = geocoder.bing(address, key="AoiuIaSUNtkn5bpSwZNlH8kHWRtGrhM7M0VdemJ4icBvfqibkzPV-IolVtnzgLiv").latlng
+            geolocation = geocoder.bing(address, key="Not public").latlng
             self.geolocation_cache[address] = geolocation
             return geolocation
         except ReadTimeout:
