@@ -3,8 +3,11 @@ This repository contains most of the scripts created to collect, clean, aggregat
 The revenue data was provided by a swiss insurance company and is confidential. The goal of this project was to find a way to predict revenue and growth of the hotels in the dataset from publicly available data. The main data sources were:
 
 swisshotels.ch for general hotel attributes such as size, location and amenities
+
 tripadvisor.com for ratings and attributes
+
 booking.com for ratings and attributes
+
 google.com for ratings
 
 An extensive description of the entire project can be found in the MasterThesis.pdf file.
